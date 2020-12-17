@@ -418,7 +418,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.7429245, g: 0.7489507, b: 0.990566, a: 1}
+    m_NormalColor: {r: 0.7809719, g: 0.78309953, b: 0.8490566, a: 1}
     m_HighlightedColor: {r: 0.9245283, g: 0.5189569, b: 0.5189569, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -440,7 +440,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 456266481}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 540148926}
+        m_MethodName: RestartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &456266481
 MonoBehaviour:
   m_ObjectHideFlags: 0
